@@ -1,0 +1,45 @@
+.wrapper {
+	overflow: hidden;
+	min-height: 100%;
+	position: relative;
+}
+body {
+	background-color: #333;
+}
+.page__container {
+	display: flex;
+	flex-direction: column;
+	gap: 25px;
+}
+
+.header {
+}
+.page {
+	padding: 40px 75px;
+}
+
+.page__block {
+	background-color: rgb(133, 177, 231);
+	border-radius: 15px;
+	padding: 3%;
+	border: solid 1px rgb(103, 101, 101);
+	box-shadow: 0px 13px 32px -7px rgb(26 20 20 / 78%);
+	transition: all 0.5s ease 0s;
+}
+.page__block:hover {
+	transform: scale(1.05);
+}
+
+.page__block h2:not(:last-child) {
+	margin-bottom: 15px;
+}
+.page__title {
+	font-size: 30px;
+	font-weight: 900;
+	margin-bottom: 40px;
+}
+.page__result {
+	font-size: 22px;
+}
+.footer {
+}
